@@ -9,7 +9,7 @@ const App =() => {
 const changeHandler = e => {
   setData({...data,[e.target.name]:[e.target.value]})
 }
-//test
+
 const submitHandler = e => {
   e.preventDefault();
   data.password[0].length < 5 ? alert('please enter > 5') : 
